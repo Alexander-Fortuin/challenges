@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title>Validation Form</title></head>
+
+<body>
+  <center>
+<h1>Registration Form</h1>
+  <form action="/action_page.php"target="_blank">
+      <p>User id: <input type="number" name="quantity" placeholder="Required" maxlength="12" required></p>
+
+        <p>Password: <input type="password" name="psw" placeholder="Required" maxlength="12" required></p>
+
+          <p>Name: <input type="text" name="fname" placeholder="Required" required></p>
+
+            <p>Adress: <input type="text" name="Adress" placeholder="Optional"></p>
+
+              <p>Country: <input list="countries" name="Country" placeholder="(Please select a country)" required>
+                <datalist id="countries">
+                  <option>Brazil</option>
+                  <option>England</option>
+                  <option>Hungary</option>
+                  <option>Israel</option>
+                  <option>Jamaica</option>
+                  <option>Mozambique</option>
+                  <option>North Korea</option>
+                  <option>Pakistan</option>
+                  <option>Romania</option>
+                  <option>South Africa</option>
+                </datalist></p>
+
+                    <p>ZIP Code: <input type="number" placeholder="Required" required></p>
+
+                  <p>Email: <input type="email" placeholder="Required" required></p>
+
+                <p>Sex: <input type="radio" name="gender" checked>Male</input><input type="radio" name="gender">Female</input></p>
+
+              <p required>Languge:<input type="checkbox" name="Language" checked>English</input><input type="checkbox" name="Language">Non English</input></p>
+
+            About:<p> <textarea name="About" placeholder="Optional" rows="10" cols="50"></textarea></p>
+
+          <p><input type="submit" value="Submit"></p>
+</form>
+</center>
+</body>
+</html>

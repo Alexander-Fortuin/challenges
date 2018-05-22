@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<!--name,contact details, gender, date of birth, password-->
+<form action="/action_page.php"target="_blank">
+  <fieldset>
+    <legend><h3>Simple Form</h3></legend>
+      <p>First name:</p>
+        <input type="text" name="firstname">
+
+      <p>Last name:</p>
+        <input type="text" name="lastname">
+
+      <p>Contact Number:</p>
+        <input type="number">
+
+      <p>E-mail:</p>
+        <input type="email" name="email">
+
+      <p>Date of Birth</p>
+        <input type="date">
+
+      <p>Password:</p>
+        <input type="password" min="8">
+
+        <p><input type="radio" name="gender" value="male" checked> Male</p>
+        <p><input type="radio" name="gender" value="female"> Female</p>
+        <p><input type="radio" name="gender" value="other"> Other</p>
+
+      <p>Home Language:</p>
+        <p><input type="checkbox" name="languge" value="English" checked>English</p>
+        <p><input type="checkbox" name="languge" value="Afrikaans">Afrikaans</p>
+        <p><input type="checkbox" name="languge" value="isiXhosa">isiXhosa</p>
+
+
+  <ol>
+    <p><li>How often do you visit coffee shops?</li></p>
+      <select name="test">
+        <option value="A">Very often</option>
+        <option value="B">Often</option>
+        <option value="C">Occasionaly</option>
+        <option value="D">Hardly ever</option>
+        <option value="E">Never</option>
+      </select>
+
+      <p><li>What is your favorite coffee shop? Where is it located?</li></p>
+        <p><textarea name="Comments" rows="10" cols="30"></textarea></p>
+
+      <p><li>What do you typically order to drink?</li></p>
+        <p><textarea name="Comments" rows="10" cols="30"></textarea></p>
+
+      <p><li>Do you prefer large, national chain coffee shops or small, privately owned coffee shops?</li></p>
+        <p><input type="radio" name="Do you prefer" value="large, national chain coffee shops">Large, national chain coffee shops</p>
+        <p><input type="radio" name="Do you prefer" value="small, privately owned coffee shops">Small, privately owned coffee shops</p>
+   </ol>
+
+   <p>Any Comments</p>
+    <p><textarea name="Comments" rows="10" cols="60"></textarea></p>
+    <p><button type="button"onclick="alert('Please fill in everything')">Click</button></p>
+
+  <p><input type="submit" value="Submit Now"></p>
+      <input type="reset" value="Reset">
+
+</form>
+</html>
