@@ -1,0 +1,10 @@
+body {
+  background-color: blue; }
+  body div {
+    background-color: yellow; }
+    body div h1, body div h2, body div h3, body div h4 {
+      color: red; }
+    body div p {
+      font-family: cursive; }
+
+/*# sourceMappingURL=style.css.map */
